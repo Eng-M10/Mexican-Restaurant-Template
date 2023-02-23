@@ -1,0 +1,515 @@
+
+*{
+    font-family: "Roboto",sans-serif;
+}
+#content{
+    overflow: hidden;
+}
+a,button{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: light;
+}
+
+
+header{
+    background-color: #4a1831;
+    width: 100%;
+    height: 3rem;
+}
+.headList{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.headList ul{
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.headList ul li a{
+    padding: 15px;
+    color: #ffd7ad;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+header nav ul li a:hover{
+    color: rgba(0, 0, 0, 0.562);
+}
+
+._logo{
+    margin-top: 2.6rem;
+    width: 145px;
+    height: 152px;
+    margin-left: 1.43rem;
+    position: absolute;
+    border-radius: 32px;
+    background-image:url('../images/head/logomarca.png');
+    background-size: cover;
+}
+#Home{
+    width: 100%;
+    height: 600px;
+    background-image: url('../images/head/backHome.png');
+    background-size: cover;
+}
+h1{
+
+    font-family: "Roboto", sans-serif;
+    font-size: 116px;
+    font-weight: bold;
+    
+}
+.contentHome{
+    position: absolute;
+    margin-top: 13rem;
+    width: 80%;
+    height:50%;
+    color: #ffd7ad;
+    margin-left: 1.43rem;
+    align-items: start;
+}
+.contentHome p{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    word-spacing: 2.1px;
+    font-weight: light;
+
+}
+.contentHome p:last-child{
+    padding-bottom: 2rem;
+    width: 50%;
+}
+.contentHome p:first-child{
+    padding-top:2rem;
+    width: 50%;
+}
+#Home button{
+    cursor: pointer;
+    background-color: #ffd7ad;
+    color: #4a1831;
+    margin-top: 2rem;
+    width: 190px;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 28px;
+    padding: 10px;
+
+}
+#Home button:hover{
+    color: #ffd7ad;
+    background-color: #4a1831;
+    border: 2px solid #ffd7ad;
+}
+
+#About{
+    background-color: #ffd7ad;
+    width: 100%;
+    height: 830px;
+}
+
+.contentAbout{
+    width: 80%;
+    padding-top: 80px;
+    margin-left:50%;
+    transform: translateX(-50%);
+    height: 400px;
+    justify-content: space-between;
+
+}
+.contentAbout h2 {
+    font-size: 54px;
+    font-family: "Roboto",sans-serif;
+    color: rgb(74, 24, 49);
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.contentAbout p{
+    color: #4a1831;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.contentAbout a {
+   position: absolute;
+    color: #ffd7ad;
+    background-color: #4a1831;
+    margin-top: 5rem;
+    width: 180px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 28px;
+    padding: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%); 
+}
+.contentAbout a:hover{
+    background-color: #ffd7ad;
+    color: #4a1831;
+    border: 2px solid #4a1831;
+}
+#About .menuPic{
+    position: relative;
+    color: #ffd7ad;
+    width: 100%;
+    height: 350px;
+    background-image: url('../images/menu/menuPNG.png');
+    background-size: cover;
+}
+#About .menuPic p{
+    transform: translateX(-100%);
+
+}
+
+#Menu{
+    width: 100%;
+    height: 700px;
+    color: #4a1831;
+    background-color: #ffd7ad;
+    display: flex;
+    flex-direction: row;
+}
+#Menu  h2{
+    font-size: 44px;
+    font-family: "Roboto",sans-serif;
+    color: rgb(74, 24, 49);
+    font-weight: bold;
+    text-align: start;
+    padding-bottom: 25px;
+}
+#Menu  .contentMenu p {
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    font-weight: light;
+    text-align: start;
+}
+#Menu  .contentMenu{
+    width: 50%;
+    height: 500px;
+    margin-top: 12rem;
+}
+#Menu  .banner {
+    width: 50%;
+    height: 617px;
+    background-image: url('../images/menu/aboutPNG.png');
+    background-size: cover;
+    float: left;
+}
+
+#Menu .contentMenu button {
+    cursor: pointer;
+    color: #ffd7ad;
+    background-color: #4a1831;
+    margin-top: 5rem;
+    width: 200px;
+    border: none;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 28px;
+    padding: 10px;
+}
+#Menu .contentMenu button:hover{
+    background-color: #ffd7ad;
+    color: #4a1831;
+    border: 2px solid #4a1831;
+}
+#Menu section {
+    justify-content: space-around;
+    margin: 20px;
+}
+#card{
+    height: 751px;
+    width: 100%;
+    background-color: #ffd7ad;
+}
+
+#card .contentOffers_msg{
+    width: 1075px;
+    height: 751px;
+    background-image: url('../images/menu/tacosPNG.png');
+    background-size: cover;
+    margin-left: 13rem ;
+}
+
+#card .contentOffers_msg .Offers_msg p:first-child{
+    font-size: 86px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #e63956;
+    text-align: start;
+    margin-left: -95px;
+}
+#card .contentOffers_msg .Offers_msg p:nth-child(2){
+    font-size: 72px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color:#4a1831;
+    text-align: start;
+    margin-left: -95px;
+
+}
+#card .contentOffers_msg .Offers_msg p:last-child{
+    font-size: 86px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #6cc5ac;
+    text-align: start;
+    margin-left: -95px;
+}
+
+#Offers{
+    width: 100%;
+    height: 800px;
+    background-color: #4a1831;
+}
+._offers{
+    background-color: #4a1831;
+    width: 100%;
+    height: 500px;
+    padding: 100px;
+    color: #ffd7ad;
+    text-align: start;
+    display: flex;
+}
+
+._offers h2{
+    font-size: 56px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
+
+._offers p{
+    font-size: 18px;
+    font-weight: light;
+    font-family: "Roboto", sans-serif;
+}
+._off{
+    margin-top:10rem;
+}
+
+._off a{
+    position: absolute;
+    background-color: #ffd7ad;
+    color: #4a1831;
+    margin-top: 2rem;
+    width: 180px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 28px;
+    padding: 10px;
+
+    
+}
+._off a:hover{
+    color: #ffd7ad;
+    background-color: #4a1831;
+    border: 2px solid #ffd7ad;
+}
+.offerPic{
+    width: 577px;
+    height: 548px;
+    background-image: url('../images/menu/BackgroundOffers.png');
+    background-size: cover;
+    margin-left: 12rem;
+}
+
+
+.cite{
+    width: 100%;
+    height: 947px;
+    background-image: url('../images/menu/citePNG.png');
+    background-size: cover;
+}
+.global{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/menu/Shape.png');
+    opacity: 90%;
+}
+.citelogo{
+    position: absolute;
+    width: 145px;
+    height: 152px;
+    margin-left:50%;
+    margin-top: -197px;
+    transform: translateX(-50%);
+    background-image:url('../images/head/logomarca.png');
+    background-size: cover;
+}
+._local {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    color: #ffd7ad;
+}
+blockquote{
+    text-align: start;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-left: 50%;
+    transform:translateX(-50%);
+
+}
+
+cite{
+    position: absolute;
+    margin-top:3rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-style: italic;
+    color: #9c7c7c;
+    font-weight: bolder;
+    font-size:24px;
+    text-decoration: underline;
+}
+
+
+
+#Contact{
+    background-color: #ffd7ad;
+    width: 100%;
+    height: 500px;
+}
+.contentContact{
+    width: 80%;
+    padding-top: 80px;
+    margin-left:50%;
+    transform: translateX(-50%);
+}
+.contentContact h2 {
+    font-size: 54px;
+    font-family: "Roboto",sans-serif;
+    color: rgb(74, 24, 49);
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.contentContact p{
+    color: #4a1831;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.contentContact form{ 
+    width: 300px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding: 30px;
+    display: inline-flex;
+}
+
+.contentContact form input{
+    border:none;
+    border-radius: 18px 18px 0px 18px;
+    width: 300px;
+    height: 18px;
+    padding: 10px;
+}
+.contentContact form input::placeholder{
+    color:#4a1831;
+    text-transform: capitalize;
+    font-size: 18px
+}
+.contentContact form button{
+    border:none;
+    padding: 10px;
+    border-radius: 18px;
+    height: 38px;
+    width: 100px;
+    margin-left:-25px;
+    text-transform: uppercase;
+    background-color: #4a1831;
+    color: #ffd7ad;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    color: #ffd7ad;  
+    background-color: #4a1831;
+
+    font-family: "Roboto" , sans-serif;
+}
+.contentfooter {
+
+    display: flex;
+    height: 200px;
+    padding-top: 25px;
+    justify-content: space-between;
+    padding-left:75px;
+    padding-right: 75px;
+    padding-top: 90px;
+}
+
+footer h5 {
+    font-size: 18px;
+    padding-bottom: 2.58rem;
+    font-weight:bolder;
+
+}
+.contentfooter section ul li{
+    padding-top: 10px;
+}
+.contentfooter section ul li a{
+        text-decoration: none;
+        align-content: center;
+        color:  #ffd7ad;
+        font-size: 16px;
+}
+
+.ico{
+    width: 45px;
+    height: 45px;
+    margin-left: 1.2rem;
+    justify-content: space-between;
+    color: #ffd7ad; 
+    text-indent: -100px;
+}
+.ico:hover{
+    cursor: pointer;
+    
+}
+
+.social_media .ico {
+    display: inline-block;
+    margin-top: 1.86rem;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+    justify-content: space-between;
+}
+.face{
+   
+    background-image: url('../images/menu/Facebook.png');
+
+}
+.insta{
+    background-image: url('../images/menu/Instagram1.png');
+}
+.twitter{
+    background-image: url('../images/menu/Twitter.png');
+}
+.whats{
+    background-image: url('../images/menu/WhatsApp.png');
+}
+.contentfooter .lists ul li a:hover{
+    padding: 0.86rem;
+    color-interpolation-filters: sRGB;
+    color: #000000;
+}
