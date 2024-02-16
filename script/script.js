@@ -6,11 +6,24 @@
  * 5 - Text Animation ()
  */
 
+const removeEffect = (links , element) =>{
+
+    links.forEach((link) => {
+        link.parentElement.classList.remove('actived-link');
+    });
+    
+    element.parentElement.classList.add('actived-link');
+
+}
+
+
+
 function smoothScrollNavigation(){
     const links = document.querySelectorAll('a[href^="#"]');
     links.forEach((link) => {
         link.addEventListener('click', (e) => {
             const identifier = e.currentTarget.getAttribute('href');
+            
             e.preventDefault();
             const target = document.querySelector(identifier);
 
@@ -18,6 +31,7 @@ function smoothScrollNavigation(){
                 behavior: 'smooth',
                 block: 'start',
             });
+            removeEffect(links , e.currentTarget);
         });
     });
 }
@@ -30,7 +44,7 @@ function fixeMenuBar() {
         const header = document.querySelector('header');
         const currentScrool = window.scrollY;
     
-        if(currentScrool >= 107) {
+        if(currentScrool >= 100) {
             header.classList.add("fixedbar");
         }
         else {

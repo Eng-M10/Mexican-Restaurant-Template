@@ -87,8 +87,10 @@ header {
     }
     
     .headItem a:hover{
-        color: rgba(0, 0, 0, 0.562);
-        text-shadow: #9c7c7c;
+        
+        .headItem{
+            padding-top: 2px;
+        }
     }
 
 }
@@ -96,7 +98,7 @@ header {
 .fixedbar {
 
     position: fixed;
-    height: 30px;
+    height: 50px;
     top: 0;
     left: 0;
     box-shadow: 0px 0px 5px #4a1831;
@@ -105,8 +107,21 @@ header {
         font-weight: 400;
         font-size: 0.89rem;
     }
-
     
+    
+  
+}
+
+.actived-link{   
+     a{
+        color: #e63956;
+        text-decoration: 0 underline;
+        transition: text-decoration 300ms ease;
+     }
+
+     a:hover{
+
+     }
 }
 
 
